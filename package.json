@@ -1,0 +1,13 @@
+{
+    "name": "vulnerable-app",
+    "version": "1.0.0",
+    "description": "A simple app with a SQL injection vulnerability",
+    "main": "vulnerable.js",
+    "scripts": {
+      "start": "node vulnerable.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mysql": "^2.18.1"
+    }
+  }
